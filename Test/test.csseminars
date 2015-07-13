@@ -1,0 +1,29 @@
+// Some groups
+group ES 'A description for the Enterprise Systems Group'
+group HCI "Human Computer Interaction group description"
+group PLASMA "PLASMA group description"
+
+/*
+ * Some members
+ */
+member Sam Simpson HCI
+member Simos Gerasimou ES
+member Adolfo Sanchez RTS
+
+// First seminar
+seminar Student_Presentations ( Sam, Simos)
+	date 15/07/2015
+	duration 1:00
+		
+	talk Xtext_talk ( Adolfo) 
+	abstract "Presentation abstract"
+	duration 0:35
+			
+	talk Another_Talk ( Adolfo )
+	abstract "Another talk abstract"
+	duration 0:25
+	
+	
+	
+	
+		
